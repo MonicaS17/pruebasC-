@@ -22,5 +22,12 @@ namespace EjemploModuli1
             Form1 objForm1 = new Form1();
             objForm1.Show();
         }
+
+        private void btn3_Click(object sender, EventArgs e)
+        {
+            FormEjemplos3 formEjemplos3 = new FormEjemplos3();
+            formEjemplos3.Show();
+
+        }
     }
 }
